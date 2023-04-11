@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication3", "PythonApplication3.pyproj", "{5FB500D8-DE72-4AED-9894-2A6C65A66C46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{592CFF3E-4FEC-478E-820F-D0C54BDCF424}"
+	ProjectSection(SolutionItems) = preProject
+		HTMLPage2.html = HTMLPage2.html
+		assets\lara.jpg = assets\lara.jpg
+		templates\page.html = templates\page.html
+		assets\shiv.jpg = assets\shiv.jpg
+		templates\styles.css = templates\styles.css
+		static\styles.css = static\styles.css
+		assets\sundus.jpg = assets\sundus.jpg
+		assets\swathi.jpg = assets\swathi.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FB500D8-DE72-4AED-9894-2A6C65A66C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB500D8-DE72-4AED-9894-2A6C65A66C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9913926B-31B4-4FDA-9BBD-26D96BF13352}
+	EndGlobalSection
+EndGlobal

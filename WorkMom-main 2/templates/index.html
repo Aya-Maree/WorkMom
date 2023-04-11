@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="sheet\styles.css">
+</head>
+
+
+
+<div id="main">
+    <div id="header"> WorkMom </div>
+
+    <script>
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("header").style.fontSize = "60px";
+            } else {
+                document.getElementById("header").style.fontSize = "90px";
+            }
+        }
+    </script>
+    </div>
+    <body>
+        <div class="home" id="direct">
+            <h1>Here for you when you need it most.</h1>
+            <div class="choices">
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <h3>Better Way to Say</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <p>
+                                No need to think before you speak...
+                                we do it for you.
+                            </p>
+                            <a href="{{url_for('BWTSI')}}">Try It!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <h3>Calendar</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <P>Wait? What day is it again?<P>
+                            <a href="{{url_for('calendar')}}">Try It!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1">
+                        <div class="content">
+                            <h3>To Do</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <P>So...How many things are you putting off right now?</P>
+                            <a href="{{url_for('todo')}}">Try It!</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="footer">
+                <p>WorkMom - keeping you in line, most of the time.</p>
+            </div>
+
+        </div>
+
+    </body>
+</html>

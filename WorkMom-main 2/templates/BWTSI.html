@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<div class="betterway">
+    <h1>Better Way To Say</h1>
+</div>
+<link rel="stylesheet" href="sheet\btwstyle.css">
+<h2 style="text-align:center; font-size: 20px; margin-left: 90px; margin-right:90px; padding: 80px; ">Need to tell your boss something brutally honest? Don't know how to say it? Enter what you want to say and we will find the better way.</h2>
+<div class="row">
+
+    <div class="column">
+        <form action="{{url_for('generate')}}" method="POST">
+            <input type="text" id="subject" name="prompt">
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+    <div class="generator">
+        <p style="text-align: center; font-size: 20px; padding-top: 30px">{{response}}</p>
+    </div>
+</div>
+</div>
+</html>

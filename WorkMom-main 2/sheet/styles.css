@@ -1,0 +1,151 @@
+﻿body {
+    margin: 0 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home {
+    padding: 200px;
+    text-align: center;
+    background-color: rgb(63, 77, 65);
+    color: rgb(243, 255, 245);
+}
+
+.choices {
+    width: 1000px;
+    position: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+    .choices .card {
+        position: relative;
+        cursor: pointer;
+    }
+
+        .choices .card .face {
+            width: 310px;
+            height: 200px;
+            transition: 0.5s;
+        }
+
+            .choices .card .face.face1 {
+                position: relative;
+                background: #333;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 1;
+                transform: translateY(100px);
+            }
+
+        .choices .card:hover .face.face1 {
+            background: #60825e;
+            transform: translateY(0);
+        }
+
+        .choices .card .face.face1 .content {
+            opacity: 0.2;
+            transition: 0.5s;
+        }
+
+        .choices .card:hover .face.face1 .content {
+            opacity: 1;
+        }
+
+        .choices .card .face.face1 .content h3 {
+            margin: 10px 0 0;
+            padding: 0;
+            color: #fff;
+            text-align: center;
+            font-size: 1.5em;
+        }
+
+        .choices .card .face.face2 {
+            position: relative;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: #333;
+            transform: translateY(-100px);
+        }
+
+        .choices .card:hover .face.face2 {
+            transform: translateY(0);
+        }
+
+        .choices .card .face.face2 .content p {
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        .choices .card .face.face2 .content a {
+            margin: 15px 0 0;
+            display: inline-block;
+            text-decoration: none;
+            font-weight: 900;
+            color: #333;
+            padding: 5px;
+            border: 1px solid #333;
+        }
+
+            .choices .card .face.face2 .content a:hover {
+                background: #333;
+            }
+
+        .choices .card
+        .container {
+            padding: 0 16px;
+        }
+
+
+
+
+
+
+/* just for a nicer scroll */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+
+
+
+#header {
+    background-color: rgb(255, 255, 255);
+    padding: 100px 15px;
+    color: rgb(63, 77, 65);
+    text-align: center;
+    margin: auto;
+    font-size: 100px;
+    font-weight: bold;
+    top: 0;
+    width: 97.45%;
+    transition: 0.5s;
+}
+
+#main {
+    padding: 20px;
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(63, 77, 65);
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+}

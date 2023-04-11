@@ -1,0 +1,87 @@
+﻿body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+
+.column {
+    padding: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.betterway {
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(63, 77, 65);
+    color: white;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+    .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+.title {
+    color: grey;
+}
+
+
+
+
+.column {
+    transform: translate(50%, 0%);
+    width: 50%;
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid rgb(124, 132, 128);
+    margin-top: 20px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #2b4332;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #406672;
+    }
+
+    input[type=submit]:hover {
+        background-color: rgb(63, 77, 65);
+    }
