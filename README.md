@@ -6,10 +6,11 @@ Lara El-Aloul
 Aya Maree
 Sarah Haniya
 
+
+DEVPOST:
+https://devpost.com/software/workmom
+
 ![alt text](./img/BWTS.jpg "BWTS")
 ![alt text](./img/HomePage.jpg "HomePage")
 ![alt text](./img/HomePage2.jpg "HomePage2")
 
-
-DEVPOST:
-https://devpost.com/software/workmom
