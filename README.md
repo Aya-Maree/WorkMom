@@ -6,6 +6,9 @@ Lara El-Aloul
 Aya Maree
 Sarah Haniya
 
+![alt text](./img/BWTS.jpg "BWTS")
+![alt text](./img/HomePage.jpg "HomePage")
+![alt text](./img/HomePage2.jpg "HomePage2")
 
 
 DEVPOST:
